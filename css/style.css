@@ -1,0 +1,53 @@
+:root { 
+    --main-color: #2196f3;
+    --main-color-alt: #1787e0;
+    --main-transition: 0.3s;
+    --main-padding-top: 100px;
+    --main-padding-bottom: 100px;
+    --section-background: #ececec;
+    }
+    
+    *{
+        -webkit-box-sizing: border-box;
+        -moz-box-sizing: border-box;
+        box-sizing: border-box;
+        padding: 0;
+        margin: 0;
+    }
+    html{
+        scroll-behavior: smooth;
+    }
+    body{
+        font-family: "work sans" ,sans-serif;
+      
+       }
+    
+       li{
+        list-style: none;
+    }
+    .container{
+        padding-left:20px;
+        padding-right:20px;
+        margin-left:auto;
+        margin-right:auto;
+    }
+    /*   media queries    */
+    /* Small */
+    @media (max-width: 767px) {
+        .container {
+          width: 750px;
+        }
+      }
+      /* Medium */
+      @media (max-width: 991px) {
+        .container {
+          width: 970px;
+        }
+      }
+      /* Large */
+      @media (min-width: 992px) {
+        .container {
+          width: 1170px;
+        }
+      }
+    /*   media queries    */
